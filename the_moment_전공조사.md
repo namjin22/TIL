@@ -15,8 +15,8 @@
     - 언어로는 주로 HTML, CSS, Java script 등을 사용한다.
     - 협업 및 버전 관리를 위해 Git, Github을 사용한다.
     - 주로 React라는 라이브러리와 UI 디자인 및 협업을 위해 Figma를 많이 사용한다.
-<br>
 
+![fe img](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FXuOXu%2FbtrajQuCcbS%2FlhWIkDJHEfW1ywd8WskVV0%2Fimg.png)
 ---
 
 ### 백엔드
@@ -28,6 +28,8 @@
     - 언어로는 Java, Java script, Python 등을 사용한다.
     -  MySQL, PostgreSQL 등과 같은 데이터베이스(DB)를 사용한다.
     -  Django, Spring Boot 등과 같은 프레임워크를 사용한다.
+
+![be img](https://ems.elancer.co.kr/99_upload/Append/T_Blog/editor/2023111609485619188.jpg)
 <br>
 
 ---
@@ -40,6 +42,8 @@
 -  사용하는 기술 및 도구
     - 주로 Figma, Adobe, Photoshop 등의 디자인 툴을을 사용한다.
     - 미적 감각, 디자인 툴에 대한 이해도 등이 필요하다.
+
+![design img](https://velog.velcdn.com/images/orororoa1/post/c1a016ff-ab5f-4162-8486-047c8e9c27bc/image.png)
 <br>
 
 ---
@@ -55,6 +59,8 @@
     - 서버, 네트워크 말고도 전체 인프라를 관리하는 기술이라서 그만큼 사용하는 기술이나 도구 범위가 넓다.
     - 컨테이너,가상화에는 Docker. - 보안/인증에는 IAM. - 배포 자동화(CI/CD)에는 GitHub Actions. 등
     - 이외에도 다양한 분야에서 다양한 기술 및 도구가 사용된다.
+
+![cloud](https://image.samsungsds.com/kr/insights/__icsFiles/afieldfile/2022/11/23/cloud_computing_33_thumbnail.jpg?queryString=20250214030334)
 <br>
 
 ---
