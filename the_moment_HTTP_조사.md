@@ -43,10 +43,11 @@
 
 ## 3. 주요 HTTP 메서드 (GET, POST, PUT, DELETE 등)
 
-![Methods img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7JvzGVhY5rcY0289YvDbspvVWtgvImq8OA&s)
+![Methods img](https://images.velog.io/images/yh20studio/post/c3db3a6e-6c66-4a1c-b469-d2be898f3ece/53%EB%B2%88%EC%9E%90%EC%82%B0%201911.jpg)
 
 #### 메서드?
 메서드란 컴퓨터에게 어떤 동작을 요청하는 코드(명령어)이다.
+
 <br>
 
 - ### GET?
@@ -72,10 +73,12 @@
 
 ---
 
+<br>
+
 - ### POST?
   - GET 메서드가 서버에 데이터를 요청하는 것이였다면 POST는 서버에 데이터를 보낼 때, 새로운 데이터를 등록하거나 요청 데이터를 처리할 때 사용한다.
 
-  - 주로 요청 본문(body)에 데이터를 담아서 보낸다.
+  - 요청 본문(body)에 데이터를 담아서 보낸다.
 
   - URL에 데이터가 함께 보이는 GET과 달리 URL에 데이터가 보이지 않고 body에 담기기 때문에 GET보다 보안성은 높다.
 
@@ -83,14 +86,14 @@
 
 #### 예시
 
-`POST /users HTTP/1.1
-Host: example.com
-Content-Type: application/json`
-
-`{
-  "name": "Alice",
-  "email": "alice@example.com"
-}`에서
+    POST /users HTTP/1.1
+    Host: example.com
+    Content-Type: application/json
+    {
+    "name": "Alice",
+    "email": "alice@example.com"
+    }
+에서
 
 `/users`는 사용자 정보를 보내서 새로운 사용자를 만들어줘! 라는 뜻이다.
 
@@ -98,49 +101,67 @@ Content-Type: application/json`
 
 `Host: example.com`은 이 요청을 보낼 서버의 도메인 이름이 example.com이라는 뜻이다.
 
-`Content-Type: application/json`은 서버에게 "보낼 데이터는 JSON 형식!"이라는 걸 알려준다.
+`Content-Type: application/json`은 서버에게 보낼 데이터가 JSON 형식이라는 걸 알려준다.
 
-마지막으로 정리하자면 `example.com` 서버의 `/users` 경로로 `POST 요청`을 보내서, 이름이 `Alice`이고 이메일이 `alice@example.com`인 `새로운 사용자를 등록`해. 라는 뜻이다.
-
-
- 요청 본문 (body)
-{
+`{
   "name": "Alice",
   "email": "alice@example.com"
-}
-서버에 보내는 실제 데이터
+}`은  서버에 보내는 데이터인 사용자의 이름과 이메일 정보를 서버에게게 알려준다.
 
-여기서는 사용자의 이름과 이메일 정보
+정리하자면 `example.com` 서버의 `/users` 경로로 `POST 요청`을 보내서, 이름이 `Alice`이고 이메일이 `alice@example.com`인 `새로운 사용자를 등록`해. 라는 뜻이다.
+
+---
+
+<br>
+
+- ### PUT?
+  - 서버에 데이터를 보낼 때 사용되며, 기존 데이터를 완전히 덮어서 수정하거나 업데이트할 때때 사용된다.
+
+  - POST와 똑같이 요청 본문(body)에 데이터를 담아 보낸다.
+
+  - 클라이언트가 보낸 데이터로 해당한 리소스를 전체 업데이트한다.
+
+  - ㅇ
+
+  - ㅇ
 
 
 
 
+URL로 어떤 리소스를 수정할지 명확히 지정해야 한다.
 
+예: /users/123 → 123번 사용자의 정보를 이걸로 덮어써줘!
 
+- ### DELETE?
+  - 서버에 있는 데이터를 삭제할 때 사용된다.
 
-- PUT?
-  - ㅇㅇ
+URL을 통해 어떤 리소스를 삭제할지 지정한다.
 
-- DELETE?
-  - ㅇㅇ
+요청 본문(body)은 없어도 되지만, 필요하다면 넣을 수 있다.
 
-- 그 외...
+서버의 데이터를 실제로 없애기 때문에 주의해서 사용해야 한다.
+
+여러 번 요청해도 결과는 같기 때문에 멱등성(idempotent) 을 가진다.
+
+예: /users/123 → 123번 사용자를 삭제해줘!
+
+- ### 그 외...
   - ㅇㅇ
 
 ---
 
 ## 4. HTTP 상태 코드 (200, 404, 500 등)
 
-- 200
+- ### 상태 코드 200
   - ㅇ
 
-- 404
+- ### 상태 코드 404
   - ㅇ
 
-- 500
+- ### 상태 코드 500
   - ㅇ
 
-- 그 외
+- ### 그 외
   - ㅇ
 
 
