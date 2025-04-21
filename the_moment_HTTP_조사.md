@@ -10,7 +10,7 @@
 
 ## 1. HTTP란?(HyperText Transfer Protocol의 역할)
 
-![HTTP img](https://velog.velcdn.com/images/hysperion/post/207120cb-c455-4996-a92e-64a96ad007af/image.jpg)
+![HTTP img](https://velog.velcdn.com/post-images/filoscoder/1ba8e120-174b-11ea-8bfd-dbe06624c57d/unnamed.png)
 
 - 웹(WWW)에서 클라이언트(주로 브라우저)와 서버가 데이터를 주고받기 위해 사용하는 규칙(약속)이다.
 
