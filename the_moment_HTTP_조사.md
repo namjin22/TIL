@@ -245,6 +245,8 @@
 
 ## 5. HTTP 요청과 응답 구조 (Header, Body)
 
+![HTTP img](https://velog.velcdn.com/images%2Fseculoper235%2Fpost%2Fafb4ddc1-4aec-461d-940b-f87faf06bc47%2FHTTP%20%EC%9A%94%EC%B2%AD-%EC%9D%91%EB%8B%B5%20%EA%B5%AC%EC%A1%B0.PNG)
+
 <br>
 
 `HTTP 요청과 응답 구조`는 클라이언트와 서버가 서로 정보를 주고받을 때 사용하는 구조를 말한다.
