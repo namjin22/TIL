@@ -8,7 +8,7 @@
 
 ---
 
-### 이번 조사를 통해 알게 된 다양한 개념들에 대한 정리
+### 이번 조사를 통해 알게 된 개념들 정리
 
 `클라이언트` : 서버에 요청을 보내고 서버에게 응답을 받는 쪽을 뜻한다.
 
@@ -70,7 +70,9 @@
 
 ##### 예시
 
-`GET /search?q=hello&hl=ko HTTP/1.1 Host: www.google.com`에서
+    GET /search?q=hello&hl=ko HTTP/1.1
+    Host: www.google.com
+
 
 `/search?q=hello&hl=ko`는 Google에서 hello를 검색하고 결과는 한국어로 보여주는 것이다.
 
@@ -147,7 +149,7 @@
 
 `Content-Type: application/json`는 요청 본문(body)의 데이터 형식이 JSON 형식이라는 걸 알려준다.
 
-`{"name": "Alice", "email": "alice@example.com"}`은 서버에 보내는 데이터인 사용자의 이름(Alice)과 이메일 정보(alice@example.com)를 서버에게 알려준다.
+`{"name": "Alice", "email": "alice@example.com"}`은 서버에 보내는 데이터인 사용자의 이름(Alice)과 이메일 정보를 서버에게 알려준다.
 
 정리하자면 `ID가 123`인 사용자의 정보를, 이름은 `Alice`, 이메일은 `alice@example.com`으로 `완전히` 수정해달라는 뜻이다.
 
@@ -270,8 +272,9 @@
 
   - `요청 body(본문)`은 서버에 실제로 보내는 데이터(이름, 이메일 등)를 담는 부분이다.
 
-<br>
+---
 
+<br>
 
 - ### HTTP 응답 구조 (Response)
 
