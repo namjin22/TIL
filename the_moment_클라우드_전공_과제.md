@@ -113,7 +113,7 @@
 
 - `서브넷`
 
-![subnet img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvA5gt7Er_qRo2cKW7W__K6vXPgtEsDnDmA&s)
+    ![subnet img](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIvA5gt7Er_qRo2cKW7W__K6vXPgtEsDnDmA&s)
 
   - 서브넷(Subnet)은 하나의 IP 네트워크를 여러 개의 작은 네트워크(서브 네트워크)로 나누는 기술이다. 큰 네트워크를 나눠서 주소 공간을 효율적으로 사용하고, 네트워크 관리 및 보안성을 향상시키는 데 쓰인다.
 
